@@ -39,4 +39,5 @@ vignettes/*.pdf
 .Renviron
 
 # Data 
-Data/
+Data/*
+manifest.json

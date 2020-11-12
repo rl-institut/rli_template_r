@@ -23,3 +23,4 @@ Please review the CONTRIBUTING.md file describing how to engage with this projec
 -   **R** contains all .R and .Rmd scripts.
 -   **Data** is and remains *empty* in the repository. This is populated with a separate data download process on your local machine. Please review datadown.R in the R folder for further information.
 -   **Output** is where the final .Rmd, .pdf, .docx, .tex, .png, or similar result presentation scripts or files of the project are stored.
+-   **renv** contains a project-local library of packages.

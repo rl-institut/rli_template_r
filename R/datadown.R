@@ -2,7 +2,8 @@
 
 # Purpose: download latest datasets necessary for the analysis
 
-# WARNING: This can be a large download (>5GB)
+# WARNING: This can be a large download (>5GB). You do NOT need too do 
+# this if you have received the data via a different sharing platform.
 
 # To use this, you must first set up a Personal Access Token for github, follow
 # the instructions after running usethis::browse_github_pat() this will first
@@ -19,4 +20,11 @@ p_load(piggyback, here, usethis)
 
 # Downloads the latest data ----------------------------------------------------
 
-pb_download(dest = here::here("Data"))
+# This downloads ALL data from the latest Github release to your local "Data" 
+# folder that has a timestamp newer than that currently saved in your local 
+# "Data" folder
+
+# SECOND WARNING: This can be a large download (>5GB). You do NOT need too do 
+# this if you have received the data via a different sharing platform. 
+
+pb_download()
