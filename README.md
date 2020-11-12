@@ -8,7 +8,7 @@ Simply click on the green `Use this template` button on the left of the `Clone o
 
 The detailed instructions to create a new repository from this template can be found [here](https://help.github.com/en/articles/creating-a-repository-from-a-template).
 
-Once you have created the template, you can remove everything before and including this line.
+Once you have created the new repository, you can remove everything before and including this line.
 
 # Project Name
 
