@@ -4,6 +4,8 @@ This outlines how to propose a change to [PROJECT NAME HERE].
 
 ## Getting started (within RLI)
 
+-   Clone the project using the Rstudio IDE (New Project -> Use Version Control). Once this is done, run `renv::restore()` once to download all necessary packages for this project.
+
 -   Please create a new branch with your own github username. If you haven't done this before, we recommend running `usethis::pr_init("yourusername")`, replacing the text in quotation marks with your username.
 
 -   At the end of each coding session, commit to git using the Rstudio GUI, and then create a ***draft*** PR by running `usethis::pr_push()`, and following the prompts in your browser.
@@ -18,7 +20,7 @@ This outlines how to propose a change to [PROJECT NAME HERE].
 
 ## Proposing changes (outside RLI)
 
--   Fork the repository and clone onto your computer. If you haven't done this before, we recommend using `usethis::create_from_github("repositoryurl", fork = TRUE)`.
+-   Fork the repository and clone onto your computer. If you haven't done this before, we recommend using `usethis::create_from_github("repositoryurl", fork = TRUE)`. Once this is done, run `renv::restore()` once to download all necessary packages for this project.
 
 -   Create a Git branch for your pull request (PR). We recommend using `usethis::pr_init("brief-description-of-change")`.
 
