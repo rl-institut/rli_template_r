@@ -7,8 +7,8 @@
 
 # To use this, you must first set up a Personal Access Token for github, follow
 # the instructions after running usethis::browse_github_pat() this will first
-# take you to a browser to set up the Personal Access Token, and then tell you
-# to run usethis::edit_r_environ()` to open '.Renviron'. and save your it in a
+# take you to a browser to generate the Personal Access Token, and then tell you
+# to run usethis::edit_r_environ()` to open '.Renviron'. and save it in a
 # new line as follows: GITHUB_PAT=xxxyyyzzz
 # MAKE SURE .Renviron ends with a newline.
 
