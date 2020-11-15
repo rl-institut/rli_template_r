@@ -4,33 +4,31 @@ This outlines how to propose a change to [PROJECT NAME HERE].
 
 ## Getting started (within RLI)
 
--   Clone the project using the Rstudio IDE (New Project -> Use Version Control). Once this is done, run `renv::restore()` once to download all necessary packages for this project.
+-   Clone the project, for example using the Rstudio IDE (New Project -> Use Version Control). Once this is done, run `renv::restore()` once to download all necessary packages for this project within a project-local library. You must do this as we use `renv` for portable project-based package management.
 
--   Please create a new branch with your own github username. If you haven't done this before, we recommend running `usethis::pr_init("yourusername")`, replacing the text in quotation marks with your username.
+-   Please create a new branch with your own github username. If you cloned the repository using Rstudio IDE and are using a third-party git software, such as github desktop, you must navigate to "select existing repository from your hardrive" and navigate to the folder containing the project.
 
--   At the end of each coding session, commit to git using the Rstudio GUI, and then create a ***draft*** PR by running `usethis::pr_push()`, and following the prompts in your browser.
+-   At the start of each day, it would be ideal if you can pull the main branch from remote to your local machine and merge this with your local named branch. Within github desktop, you can do this using Branch -> Merge merge into current branch.
 
--   Once you have made changes that you want to merge with the main branch, commit to git using the Rstudio GUI, and then create a PR by running `usethis::pr_push()`, and following the prompts in your browser.
+-   At the end of each day you should ideally push your named branch to remote, with an commit message that summarises the changes made.
+
+-   Once you have made changes that you want to merge with the main branch, push your named branch to remote and then create a pull request (PR).
 
     -   The title of your PR should briefly describe the change.
 
     -   The body of your PR should contain further detail or reference a specific issue.
 
--   Please note, we use renv for project-local package management.
-
 ## Proposing changes (outside RLI)
 
--   Fork the repository and clone onto your computer. If you haven't done this before, we recommend using `usethis::create_from_github("repositoryurl", fork = TRUE)`. Once this is done, run `renv::restore()` once to download all necessary packages for this project.
+-   Fork the repository and clone onto your computer. Once this is done, run `renv::restore()` once to download all necessary packages for this project into a project-local library. 
 
--   Create a Git branch for your pull request (PR). We recommend using `usethis::pr_init("brief-description-of-change")`.
+-   Create a Git branch for your pull request (PR). 
 
--   Make your changes, commit to git, and then create a PR by running `usethis::pr_push()`, and following the prompts in your browser.
+-   Make your changes, commit to git, and then create a PR.
 
     -   The title of your PR should briefly describe the change.
 
     -   The body of your PR should contain `Fixes #issue-number`.
-
--   Please note, we use renv for project-local package management.
 
 ## Code style
 
