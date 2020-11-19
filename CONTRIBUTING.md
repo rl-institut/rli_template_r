@@ -8,9 +8,13 @@ This outlines how to propose a change to [PROJECT NAME HERE].
 
 -   Please create a new branch with your own github username. If you cloned the repository using Rstudio IDE and are using a third-party git software, such as github desktop, you must navigate to "select existing repository from your hardrive" and navigate to the folder containing the project.
 
+-   You can now start working in your local named branch. Reminder: _only_ work on your local named branch.
+
+-   If your require new packages that did not get loaded during `renv::restore()`, you can install this using `install.packages("packge")` and then run `renv::snapshot` to update the .lock file for all others. Please make sure you include this in your commit message. Further detail can be found here: https://rstudio.github.io/renv/articles/renv.html
+
 -   At the start of each day, it would be ideal if you can pull the main branch from remote to your local machine and merge this with your local named branch. Within github desktop, you can do this using Branch -> Merge merge into current branch.
 
--   At the end of each day you should ideally push your named branch to remote, with an commit message that summarises the changes made.
+-   At the end of each day you should ideally push your local named branch to remote, with an commit message that summarises the changes made.
 
 -   Once you have made changes that you want to merge with the main branch, push your named branch to remote and then create a pull request (PR).
 
@@ -42,7 +46,7 @@ Please note that the project is released with a [Contributor Code of Conduct](CO
 
 ### Downloading data
 
-You can download the latest data necessary to run this analysis directly from Github using the piggyback package as described in the datadown.R script in the R folder.
+You can download the latest data necessary to run this analysis directly from Github using the piggyback package as described in the datadown.R script in the R folder. You must create a github personal access token if you have not already done this. This must only be done _once_ per github account (you do not need to re-do this each time you clone a new repository).
 
 ### Uploading data
 
