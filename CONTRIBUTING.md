@@ -4,15 +4,13 @@ This outlines how to propose a change to [PROJECT NAME HERE].
 
 ## Getting started (within RLI)
 
--   Clone the project, for example using the Rstudio IDE (New Project -> Use Version Control). Once this is done, run `renv::restore()` once to download all necessary packages for this project within a project-local library. You must do this as we use `renv` for portable project-based package management.
+-   Clone the project, for example using the Rstudio IDE (New Project -> Use Version Control). 
 
 -   Please create a new branch with your own github username. If you cloned the repository using Rstudio IDE and are using a third-party git software, such as github desktop, you must navigate to "select existing repository from your hardrive" and navigate to the folder containing the project.
 
 -   You can now start working in your local named branch. Reminder: _only_ work on your local named branch.
 
--   If your require new packages that did not get loaded during `renv::restore()`, you can install this using `install.packages("packge")` and then run `renv::snapshot` to update the .lock file for all others. Please make sure you include this in your commit message. Further detail can be found here: https://rstudio.github.io/renv/articles/renv.html
-
--   At the start of each day, it would be ideal if you can pull the main branch from remote to your local machine and merge this with your local named branch. Within github desktop, you can do this using Branch -> Merge merge into current branch.
+-   At the start of each day, it would be ideal if you can pull the main branch from remote to your local machine and merge this with your local named branch. Within github desktop, you can do this using Branch -> Merge into current branch.
 
 -   At the end of each day you should ideally push your local named branch to remote, with an commit message that summarises the changes made.
 
@@ -24,7 +22,7 @@ This outlines how to propose a change to [PROJECT NAME HERE].
 
 ## Proposing changes (outside RLI)
 
--   Fork the repository and clone onto your computer. Once this is done, run `renv::restore()` once to download all necessary packages for this project into a project-local library. 
+-   Fork the repository and clone onto your computer.
 
 -   Create a Git branch for your pull request (PR). 
 
