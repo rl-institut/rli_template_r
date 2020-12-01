@@ -8,10 +8,6 @@ Simply click on the green `Use this template` button on the left of the `Clone o
 
 The detailed instructions to create a new repository from this template can be found [here](https://help.github.com/en/articles/creating-a-repository-from-a-template).
 
-## renv
-
-You must run `renv::init()` and select the option that activates the current renv with your project. This must only be run once. You can then install the packages you want to work with in this project as you normally do, and then you can save a snapshot of these using `renv::snapshot()`. Every other user now just runs `renv::restore()` on their local machine to get the exact same packages versions that you have used. More information can be found here: `https://rstudio.github.io/renv/articles/collaborating.html`
-
 Once you have created the new repository, you can remove everything before and including this line. 
 
 # Project Name
@@ -27,4 +23,3 @@ Please review the CONTRIBUTING.md file describing how to engage with this projec
 -   **R** contains all .R and .Rmd scripts.
 -   **Data** is and remains *empty* in the repository. This is populated with a separate data download process on your local machine. Please review datadown.R in the R folder for further information.
 -   **Output** is where the final .Rmd, .pdf, .docx, .tex, .png, or similar result presentation scripts or files of the project are stored.
--   **renv** contains a project-local library of packages.
